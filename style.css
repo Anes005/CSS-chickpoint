@@ -1,0 +1,54 @@
+body{
+    background-color: #5c8cb0;
+   
+}
+  h1{
+    color: rgb(255, 141, 1); 
+    font-family: roboto;
+    text-align: center;
+
+}
+h3{
+    color: white;
+}
+
+#tt {
+    border: 7px solid black;
+    border-radius: 30px;
+    padding-block: 10px;
+    display: inline-block ;
+    background-color:  #031c2f;
+}
+#t {
+    display: grid;
+    place-items: center;
+}
+ul{
+    list-style: none;
+padding: 0px;
+margin: 0px;
+display: flex;
+width: 100%;
+gap: 20px;
+
+
+justify-content: end;
+}
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+    }
+    table{
+        background-color:#031c2f ;
+        color:rgb(196, 157, 85);
+    }
+    input{
+        background-color: #5c8cb0;
+        color: azure;
+        
+    }
+    ::placeholder{
+        color: azure;
+    }
